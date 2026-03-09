@@ -705,3 +705,274 @@ body{
     width: 50%;
     justify-content: flex-end;
 }
+
+.navbar-respo{
+    display: none;
+}
+
+@media(max-width: 900px){
+    .navbar{
+        display: none;
+    }
+    .navbar-respo{
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+        position: relative;
+    }
+
+    .responsive{
+        display: none;
+    }
+
+    .responsive a{
+        text-decoration: none;
+        color: black;
+        margin: 20px;
+    }
+
+    .navbar-respo:hover>.responsive{
+        height: max-content;
+        width: 50%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        margin-top: 20px;
+    }
+
+    .navbar-respo i{
+        position: relative;
+        left: 90%;
+    }
+
+    .responsive button{
+        height: 50px;
+        width: 100%;
+        border-radius: 10px;
+        border: 1px solid orangered;
+        background-color: orangered;
+        color: white;
+        font-weight: 600;
+        font-size: 15px
+    }
+
+    .container{
+        flex-wrap: wrap;
+        height: max-content;
+    }
+
+    .left{
+        height: max-content;
+        width: 90%;
+    }
+
+    .right{
+        height: max-content;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right video{
+        margin-left: 70px;
+    }
+
+    .page2{
+        height: max-content;
+        flex-wrap: wrap;
+    }
+
+    .container2{
+        flex-wrap: wrap;
+        height: max-content;
+    }
+
+    .div1{
+        height: max-content;
+        width: 80%;
+    }
+
+    .div2{
+        height: max-content;
+        width: 90%;
+    }
+
+    .div3{
+        height: max-content;
+        width: 90%;
+    }
+
+    .div4{
+        height: max-content;
+        width: 90%;
+    }
+
+    .page3{
+        flex-wrap: wrap-reverse;
+        height: max-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-page3{
+        height: max-content;
+        width: 90%;
+        
+    }
+
+    .right-page3{
+        height: max-content;
+        width: 90%;
+    }
+
+    .page4{
+        flex-wrap: wrap;
+        height: max-content;
+    }
+
+    .top{
+        height: max-content;
+        width: 90%;
+    }
+
+    .middle{
+        height: max-content;
+        width: 90%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .pg4-img{
+        height: max-content;
+        width: 100%;
+    }
+
+    .bottom{
+        height: max-content;
+        width: 100%;
+    }
+
+    .cen-btm{
+        height: 250px;
+        width: 90%;
+    }
+
+    .page5{
+        flex-wrap: wrap;
+        height: max-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 244, 244);
+    }
+
+    .pg5-1{
+        height: max-content;
+        width: 90%;
+         display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .pg5-2{
+        height: max-content;
+        width: 100%;
+    }
+
+    #ingredient{
+        margin-left: 0px;
+    }
+
+    #concept{
+        margin-left: 50px;
+    }
+
+    .pg5-3{
+        height: max-content;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .pg5-4{
+        height: max-content;
+        width: 100%;
+    }
+
+    .page6{
+        flex-wrap: wrap;
+        height: max-content;
+    }
+
+    .top2{
+        height: max-content;
+        width: 100%;
+    }
+
+    .txt{
+        height: max-content;
+        width: 100%;
+    }
+    .btn{
+        height: max-content;
+        width: 95%;
+    }
+
+    .middle2{
+        height: max-content;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .mid-cen{
+        height: max-content;
+        width: 100%;
+    }
+
+    .bottom2{
+        height: max-content;
+        width: 100%;
+    }
+
+    .cent{
+        height: max-content;
+        width: 95%;
+        background-color: rgb(236, 234, 234);
+    }
+
+    .last{
+        height: max-content;
+        width: 100%;
+    }
+
+    .one{
+        height: max-content;
+        width: 100%;
+    }
+
+    .join{
+        height: max-content;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .i{
+        height: max-content;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .ii{
+        height: max-content;
+        width: 100%;
+    }
+
+}
